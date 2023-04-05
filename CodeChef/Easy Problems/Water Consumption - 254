@@ -1,0 +1,25 @@
+#include <iostream>
+
+
+int main() {
+	int x;
+	int t;
+	int waterReccomend = 2000;
+	std::cin >> t;
+	for(int i = 0; i < t; i++){
+	    int chefDrink;
+	    std::cin >> chefDrink;
+	    if(chefDrink >= waterReccomend) {
+	        std::cout << "YES" << "\n";
+	    }
+	    else {
+	        std::cout << "NO" << "\n";
+	    }
+	}
+	
+	
+	
+	
+	
+	return 0;
+}

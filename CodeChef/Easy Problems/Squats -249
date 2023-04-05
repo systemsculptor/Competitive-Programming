@@ -1,0 +1,17 @@
+#include <iostream>
+
+int main() {
+	int x;
+	int set = 15;
+	int t;
+	std::cin >> t;
+	for(int i = 0; i < t; i++) {
+	    int totalNum;
+	    std::cin >> x;
+	    totalNum = set * x;
+	    std::cout << totalNum << "\n";
+	    
+	}
+	return 0;
+}
+
