@@ -1,0 +1,27 @@
+#include <iostream>
+
+
+int main() {
+    
+    
+    int t;
+    int one;
+    int two;
+    std::cin >> t;
+    for(int i = 0; i < t; i++) {
+        std::cin >> one >> two;
+        int sum = one + two; 
+        
+        if (6 >= sum) {
+            std::cout<< "NO" << "\n";
+        }
+        else {
+            std::cout << "YES" << "\n";
+        }
+    }
+
+
+
+	return 0;
+    }
+
