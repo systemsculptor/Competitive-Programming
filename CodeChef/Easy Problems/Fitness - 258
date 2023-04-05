@@ -1,0 +1,19 @@
+#include <iostream>
+
+
+int main() {
+    int t;
+    int trips;
+    int kilometer = 10;
+    std::cin >> t;
+    for(int i = 0; i < t; i++)
+        
+    {
+        std::cin >> trips;
+        int total = kilometer * trips;
+        std::cout << total << "\n";
+        
+    }
+	return 0;
+}
+
