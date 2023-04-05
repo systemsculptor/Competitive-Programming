@@ -1,0 +1,30 @@
+#include <iostream>
+
+
+int main() {
+    
+    int patty; 
+    int bun;
+    int t;
+    std::cin >> t;
+    for(int i = 0; i < t; i++) 
+    {
+        
+        std::cin >> patty >> bun;
+        if(patty > bun) 
+        {
+            std::cout << bun << "\n";
+        }
+        else if (bun > patty ) 
+        {
+            std::cout << patty << "\n";
+        }
+        else if (bun == patty) {
+            std::cout << bun << "\n";
+        }
+        
+        
+    }
+	return 0;
+}
+

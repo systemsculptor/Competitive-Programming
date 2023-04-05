@@ -1,0 +1,10 @@
+#include <iostream>
+
+
+int main() {
+    int x; 
+    int y;
+    std::cin >> x >> y; 
+    int notdone = x - y;
+    std::cout << notdone << "\n";
+}
