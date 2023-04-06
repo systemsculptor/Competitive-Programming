@@ -1,0 +1,29 @@
+#include <iostream>
+
+
+int main() {
+    int t;
+    std::cin >>t;
+    for(int i = 0; i < t; i++ )
+    {
+        int tom;
+        int jerry;
+        std::cin >> jerry >> tom;
+        if(tom > jerry)
+        {
+            std::cout << "YES" << "\n";
+        }
+        else{
+            std::cout << "NO" << "\n";
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+	return 0;
+}
