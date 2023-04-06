@@ -1,0 +1,22 @@
+#include <iostream>
+
+
+int main() {
+    int t;
+    std::cin >> t;
+    for(int i = 0; i < t; i++)
+    {
+        int dollars;
+        int bills;
+        std::cin >> dollars >> bills;
+        if(dollars >= bills)
+        {
+            std::cout << "YES" << "\n";
+        }
+        else {
+            std::cout << "NO" << "\n";
+        }
+        
+
+    }
+}
