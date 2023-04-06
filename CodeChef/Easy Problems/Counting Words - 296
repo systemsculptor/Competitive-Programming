@@ -1,0 +1,17 @@
+#include <iostream>
+
+
+int main() {
+    int t;
+    std::cin >> t;
+    for(int i = 0; i < t; i++)
+    {
+        int pages;
+        int words;
+        std::cin >> pages >> words;
+        int total = pages * words;
+        std::cout << total << "\n";
+        
+    }
+	return 0;
+}
