@@ -1,0 +1,26 @@
+#include <iostream>
+
+
+int main() {
+	std::string stringInput; 
+	int t;
+	std::cin >> stringInput;
+	std::array<std::string> vowels = {"a" , "e", "i", "o", "u"};
+	for(int i = 0; i < t; i++) {
+	    sum = 0;
+	    if(stringInput[i].contains(vowels)){
+	        std::array<std::string> vowelWord = {};
+	        std.append(stringInput[i]);
+	        length = std::sizeof(vowelWord);
+	        newLength = static_cast<int>(length);
+	        oldLength = std::sizeof(stringInput);
+	        totalSum = newLength - oldLength;
+	        if(totalSum >= 4) {
+	            std::cout << "YES" << "\n";
+	        }
+	        else {
+	            std::cout << "NO" << "\n";
+	        }
+	
+	return 0;
+}
