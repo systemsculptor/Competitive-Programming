@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	    
+	    int t;
+	    std::cin >> t;
+	    for(int i = 0; i < t; i++)
+	    {
+	        int x;
+	        int y;
+	        std::cin >> x >> y;
+	        int totalSum = y - x;
+	        std::cout << totalSum << "\n";
+	    }
+	return 0;
+}
