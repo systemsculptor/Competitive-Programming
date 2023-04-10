@@ -1,0 +1,24 @@
+#include <iostream>
+
+
+int main() {
+	int t;
+	std::cin >> t;
+	for(int i = 0; i < t; i++)
+	{
+	    int size;
+	    int y;
+	    int x;
+	    std::cin >> size >> x >> y;
+	    int totalX = x * 1;
+	    int totalY = y * 2;
+	    int totalSum = totalX + totalY;
+	    if(size >= totalSum){
+	        std::cout << "YES" << "\n";
+	    }
+	    else {
+	        std::cout << "NO" << "\n";
+	    }
+	}
+	return 0;
+}
