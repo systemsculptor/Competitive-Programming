@@ -1,0 +1,22 @@
+#include <iostream>
+
+int main() {
+	int t;
+	std::cin >> t;
+	for(int i = 0; i < t; i++)
+	{
+	    int rTP = 4;
+	    int auDit = 2;
+	    int nonRTP = 0;
+	    int x;
+	    int y;
+	    int z;
+	    std::cin >> x >> y >> z;
+	    int totalRtp = x * rTP;
+	    int totalAudit = auDit * y;
+	    int totalNon = nonRTP * z;
+	    int totalSum = totalRtp + totalAudit + totalNon;
+	    std::cout << totalSum << "\n";
+	}
+	return 0;
+}
