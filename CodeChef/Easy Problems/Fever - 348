@@ -1,0 +1,19 @@
+#include <iostream>
+
+int main() {
+	
+	int t;
+	std::cin >> t;
+	for(int i = 0; i < t; i ++){
+	    int bodyTemp;
+	    std::cin >> bodyTemp;
+	    if (bodyTemp > 98)
+	    {
+	    std::cout << "YES" << "\n";
+	    }
+	    else 
+	    {
+	    std::cout << "NO" << "\n";
+	    }
+	}
+}
